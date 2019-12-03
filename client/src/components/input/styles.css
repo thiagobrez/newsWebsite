@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  flex: 1;
+  font-family: Lato-Regular;
+  font-size: 14px;
+  color: #3E433E;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.input {
+  flex: 1;
+  height: 40px;
+  border: 1px solid #BFBFBF;
+}

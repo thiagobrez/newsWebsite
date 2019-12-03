@@ -1,0 +1,72 @@
+/*
+  General
+*/
+
+.container {
+  height: 100vh;
+  margin: 50px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.top {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.bottom {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.primary {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.secondary {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tertiary {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primaryArticleContent {display: none}
+
+/*
+  Responsiveness
+*/
+
+@media screen and (max-width: 1170px) {
+  .primary {min-width: 720px}
+
+  .tertiary {min-width: 345px}
+}
+
+@media screen and (max-width: 750px) {
+  .container {margin: 15px}
+
+  .primary {min-width: 290px}
+
+  .primaryArticleContent {display: block}
+
+  .secondary {flex-direction: column}
+
+  .top {border-bottom: 0}
+}

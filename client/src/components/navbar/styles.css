@@ -1,0 +1,59 @@
+/*
+  General
+*/
+
+.navbar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-bottom: 1px solid #979797;
+  height: 56px;
+  padding: 0 20px 0 20px;
+}
+
+.logoContainer,
+.menuContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuContainer {
+  display: none;
+}
+
+.logo {
+  height: 45px;
+  width: 45px;
+}
+
+.mainButtonsContainer {
+  flex-grow: 5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loginButtonContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*
+  Responsiveness
+*/
+
+@media screen and (max-width: 1170px) {
+  .menuContainer {
+    display: block;
+  }
+
+  .mainButtonsContainer {
+    display: none;
+  }
+
+  .loginButtonContainer {
+    visibility: hidden;
+  }
+}

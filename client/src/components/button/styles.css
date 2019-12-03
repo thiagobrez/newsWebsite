@@ -1,0 +1,63 @@
+/*
+  Default
+*/
+
+.button {
+  border: 0;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+  font-family: Lato-Regular;
+  font-size: 14px;
+  color: #3E433E;
+}
+
+.button:focus,
+.button:focus:hover {
+  box-shadow: 0 0 5px rgba(81, 167, 232, .5);
+  outline: 0;
+}
+
+/*
+  Themes
+*/
+
+.fill,
+.outline,
+.rectangular {
+  border: 1px solid;
+}
+
+.fill,
+.outline {
+  border-radius: 100px;
+}
+
+.fill,
+.rectangular {
+  color: #FFFFFF !important;
+}
+
+.rectangular {
+  min-height: 52px;
+  min-width: 242px;
+}
+
+.outline {
+  color: #3E433E;
+  background: transparent;
+}
+
+/*
+  Font weights
+*/
+
+.bold {font-family: Lato-Bold}
+
+/*
+  Disabled
+*/
+
+.disabled {
+  color: #FFFFFF !important;
+  background-color: #3E433E !important;
+}

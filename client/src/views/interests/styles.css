@@ -1,0 +1,73 @@
+/*
+  General
+*/
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  flex: 1;
+  margin: 60px 0 60px 0;
+}
+
+.welcomeText,
+.usernameText,
+.interestsTitleText {
+  font-family: Lato-Regular;
+}
+
+.welcomeText,
+.usernameText {
+  font-size: 24px;
+}
+
+.welcomeText,
+.interestsTitleText {
+  color: #3E433E;
+}
+
+.usernameText {
+  color: #4A90E2;
+  line-height: 29px;
+}
+
+.interests {
+  flex: 1;
+}
+
+.interestsTitle {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.interestsTitleText {
+  font-size: 14px;
+}
+
+.interestsButtons {
+  display: flex;
+  flex: 1;
+}
+
+.interestsButtonWrapper {
+  flex: 1;
+  margin: 0 2.5px 0 2.5px;
+}
+
+.mainButtons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.mainButtonsWrapper {
+  margin: 5px 0 5px 0;
+}

@@ -1,0 +1,156 @@
+/*
+  General
+*/
+
+.article {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.subject,
+.heroImage,
+.title,
+.author {
+  margin: 5px;
+}
+
+.subject {
+  flex: 1;
+  align-self: flex-start;
+}
+
+.heroImage {
+  position: relative;
+  flex: 5;
+}
+
+.image {width: 100%}
+
+.title {flex: 2}
+
+.author {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.authorImage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+.avatar {border-radius: 50%}
+
+.authorName {
+  flex: 10;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+  Image overlay
+*/
+
+.heroImageOverlay {
+  position: absolute;
+  transition: .5s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heroImage:hover .heroImageOverlay {opacity: 1}
+
+.readMore {
+  border: 1px solid #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px 10px 20px;
+}
+
+/*
+  Texts
+*/
+
+.subjectText,
+.titleText {
+  font-family: Lato-Regular;
+}
+
+.titleText {
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.subjectText {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.authorNameText {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 13px;
+  color: #808080;
+}
+
+.contentText {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #686868;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.readMoreText {
+  text-decoration: none;
+  font-family: Lato-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+/*
+  Types
+*/
+
+.primary span.titleText {font-size: 29px}
+.secondary span.titleText {font-size: 17px}
+
+.primary img.avatar {
+  width: 45px;
+  height: 45px;
+}
+
+.secondary img.avatar {
+  width: 32px;
+  height: 32px;
+}
+
+/*
+  Responsiveness
+*/
+
+@media screen and (max-width: 750px) {
+  .primary span.titleText {font-size: 17px}
+
+  .primary img.avatar {
+    width: 32px;
+    height: 32px;
+  }
+}
