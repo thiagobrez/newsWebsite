@@ -67,7 +67,7 @@
     "compression-webpack-plugin": "^0.3.2",
     "css-loader": "^0.26.2",
     "enzyme": "^2.8.2",
-    "eslint": "^3.19.0",
+    "eslint": "^4.18.2",
     "eslint-config-cheesecakelabs": "^2.0.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "husky": "^0.13.2",
