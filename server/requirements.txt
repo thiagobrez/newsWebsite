@@ -3,7 +3,7 @@ anyjson==0.3.3
 attrs==19.1.0
 Automat==0.7.0
 billiard==3.5.0.5
-celery==4.2.2
+celery==5.2.2
 certifi==2019.3.9
 chardet==3.0.4
 constantly==15.1.0
